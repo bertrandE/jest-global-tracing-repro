@@ -4,7 +4,6 @@ import presets from 'jest-preset-angular/presets';
 const config: Config = {
     rootDir: 'src',
     ...presets.createCjsPreset({tsconfig: '<rootDir>/../tsconfig.jest.json'}),
-    setupFilesAfterEnv: ['<rootDir>/setup-jest.ts'],
     verbose: true,
     testRegex: ['(.+).pact.jest.ts$']
 };

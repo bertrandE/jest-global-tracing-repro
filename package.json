@@ -6,8 +6,6 @@
     "test": "jest --config jest.config.ts --runInBand --watchAll"
   },
   "devDependencies": {
-    "@angular/core": "^17.3.12",
-    "@angular/common": "^17.3.12",
     "@pact-foundation/pact": "^15.0.1",
     "@types/jest": "^29.5.14",
     "jest": "^29.7.0",
